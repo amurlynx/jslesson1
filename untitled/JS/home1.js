@@ -4,18 +4,18 @@ var Name_Shop = prompt("Название вашего магазина?", "Ма�
 mainList  = {
     Money_Month : Money,
     Shop : Name_Shop,
-    shopGood : ['','',''],
+    shopGood : [],
     employers : {},
     Open : true
 };
 
-// for (let i =0; i<3; i++) {
-//     mainList.shopGood[i] = prompt("Какой тип товаров будем продавать?","Велосепеды");
-// }
+for (let i =0; i<3; i++) {
+    mainList.shopGood[i] = prompt("Какой тип товаров будем продавать?","Велосепеды");
+}
 
-/*for (let i =0; i<3; i++) {
+for (let i =0; i<3; i++) {
     console.log(mainList.shopGood[i]);
-};*/
+};
 
 alert(Money/30);
 let hard="33721";
